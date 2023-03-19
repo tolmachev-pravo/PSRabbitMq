@@ -239,6 +239,7 @@
     }
     process
     {
+		$Body = $null
         switch ($SerializeAs) {
             'application/clixml+xml' {
                 try
